@@ -13,7 +13,7 @@ function Login() {
 
     const [mensagem, setMensagem] = useState("");
 
-    UseEffect(() => {
+    useEffect(() => {
 
         if (!tentouEntrar) return
 
@@ -34,10 +34,13 @@ function Login() {
         <div className = {styles.pagina}>
            <div className = {styles.card}>
             
-            <div className = {styles.logo}>🎵</div>
-            <h1 classNome = {styles.titulo}>Olá de novo</h1>
+            <div className = {styles.logo}>
+                <img src="/Spotify-Logo.png" alt="Spotify" />
+            </div>
+            
+            <h1 className = {styles.titulo}>Olá de novo</h1>
 
-            <label className={styles.label}E-mail></label>
+            <label className={styles.label}>E-mail</label>
             <input 
                 type="email"
                 className={styles.input}
@@ -68,5 +71,4 @@ function Login() {
         </div>
     );       
 }
-
 export default Login
