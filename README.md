@@ -1,16 +1,25 @@
-# React + Vite
+# Spotify Login Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Clone da tela de login do Spotify desenvolvido com **React**, reproduzindo fielmente o layout e o visual da interface original.
 
-Currently, two official plugins are available:
+## Inspiração
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+A tela abaixo serviu como referência visual para o desenvolvimento do projeto:
 
-## React Compiler
+![Tela de login do Spotify](./spotify-login-preview.png)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Componentização
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+O projeto foi estruturado com foco em componentização, separando a interface em componentes reutilizáveis e independentes:
+
+- **`Logo`** — ícone do Spotify no topo da página
+- **`InputEmail`** — campo de entrada de e-mail com label
+- **`ButtonPrimary`** — botão verde de continuar
+- **`SocialButton`** — botão genérico para login social (Google, Facebook, Apple, Telefone)
+- **`LoginPage`** — componente principal que orquestra todos os outros
+
+---
+
+Desenvolvido por **Caio** como projeto acadêmico na Residencia em TIC — Serratec/SENAI.
