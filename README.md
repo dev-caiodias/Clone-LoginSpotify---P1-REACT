@@ -6,7 +6,7 @@ Clone da tela de login do Spotify desenvolvido com **React**, reproduzindo fielm
 
 A tela abaixo serviu como referência visual para o desenvolvimento do projeto:
 
-![Tela de login do Spotify](./spotify-login-preview.png)
+![alt text](image.png)
 
 ---
 
